@@ -1,0 +1,66 @@
+body {
+    background-image: url(Pokeball.jpg)
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    text-align: center;
+    background: url('Pokedex.jpg'); 
+    background-size: cover;
+    background-position: center
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+    
+}
+.card img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.type.steel { background-color: aquamarine;}
+.type.dark { background-color: black }
+.type.fairy { background-color: pink; }
+.type.poison { background-color:purple; }
+.type.normal { background-color:grey; }
+.type.ghost { background-color:darkslateblue;}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: Red;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: green;
+}
